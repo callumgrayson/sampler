@@ -1,0 +1,35 @@
+.form-sample-options {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+}
+
+.center-half {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  margin: 0.2em 0;
+}
+
+.half-left {
+  position: absolute;
+  right: 50%;
+  margin-right: 0.5em;
+}
+
+.half-right {
+  position: relative;
+  left: 50%;
+  width: 100px;
+  margin-left: 1em;
+  /* background: red; */
+}
+
+.btn-submit {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100px;
+  margin: 10px;
+}
+
